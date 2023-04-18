@@ -1,0 +1,68 @@
+
+/*==colors==*/
+:root{
+    --color-green:#31c48d;
+    --color-white:#ffffff;
+    --color-dark-grey:#33333d;
+    --color-medium-grey:#424250;
+    --color-light-grey:#d2d6dc;
+}
+
+
+/*==whitespace==*/
+*{
+    box-sizing: border-box;
+}
+
+/*==body==*/
+body{
+    margin: 0;
+    background:var(--color-medium-grey);
+    color: var(--color-white);
+    font-family: 'Montserrat', sans-serif;
+}
+/*==header==*/
+.header{
+    text-align: center;
+}
+
+/*==controls==*/
+.controls{
+    background-color: blue;
+}
+
+/*==counter==*/
+.counter{
+background-color: var(--color-dark-grey);
+}
+
+/*==counter_value==*/
+.counter_value{
+    width:100%;
+    height:15rem;
+    text-align: center;
+    font-size: 8rem; /*==increasefontsize==*/
+    font-weight: 900;
+    background: none;
+    color: var(--color-white);
+    border-width: 0;
+    border-bottom: 1px solid var(--color-light-grey);
+}
+/*==counter_actions==*/
+.counter_actions{
+    display: flex; /*==stylingbuttons==*/
+}
+
+/*==counter_actions==*/
+.counter_button{
+    background: none;
+    width:50%;
+    border-width:0;
+    font-size: 3rem;
+    color: var(--color-light-grey);
+    height: 10rem;
+}
+
+.counter_buttons_first{
+border-right:1px solid var(--color-light-grey)
+}
