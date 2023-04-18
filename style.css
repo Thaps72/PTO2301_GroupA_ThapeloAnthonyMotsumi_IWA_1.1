@@ -14,16 +14,28 @@
     box-sizing: border-box;
 }
 
+/*==html==*/
+html{
+    height:100vh;
+}
+
 /*==body==*/
 body{
     margin: 0;
     background:var(--color-medium-grey);
     color: var(--color-white);
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 /*==header==*/
 .header{
     text-align: center;
+}
+
+.header_title{
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 /*==controls==*/
@@ -61,8 +73,25 @@ background-color: var(--color-dark-grey);
     font-size: 3rem;
     color: var(--color-light-grey);
     height: 10rem;
+    border-bottom: 1px solid var(--color-light-grey);
+}
+
+/*==active state on my buttons==*/
+.counter_button:active{
+    background: var(--color-medium-grey);
 }
 
 .counter_buttons_first{
-border-right:1px solid var(--color-light-grey)
+border-right:1px solid var(--color-light-grey);
+}
+
+/*==footer==*/
+.footer{
+    background: var(--color-dark-grey);
+    color: var(--color-light-grey);
+}
+
+/*==footerlink==*/
+.footer_link{
+    color: var(--color-white);
 }
